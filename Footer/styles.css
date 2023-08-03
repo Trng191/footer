@@ -15,8 +15,8 @@ body {
   .footer-column {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Canh chỉnh nội dung các cột sang trái */
-    text-align: left; /* Canh chỉnh nội dung các cột sang trái */
+    align-items: flex-start;
+    text-align: left; 
     flex: 0.5;
     max-width: 200px;
     margin: 10 20px;
@@ -28,7 +28,7 @@ body {
   }
   
   .logo-section img {
-    max-width: 150px; /* Adjust the logo size as needed */
+    max-width: 150px; 
   }
   
   .text-section p {
@@ -73,27 +73,25 @@ body {
   
   .subscribe-button {
     border: none;
-    background-color: #246219; /* Màu xanh cho nút */
+    background-color: #246219; 
     padding: 8px 12px;
-    color: #fff; /* Màu chữ trắng */
+    color: #fff;
     cursor: pointer;
   }
   
   .subscribe-button i {
-    margin-right: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
+    margin-right: 5px; 
   }
    
   
 
 .contact-info {
-  /* Cài đặt danh sách thông tin liên hệ */
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .contact-info li {
-  /* Hiển thị thông tin liên hệ trên từng dòng */
   display: flex;
   align-items: center;
   margin-bottom: 10px;
@@ -102,7 +100,6 @@ body {
 }
 
 .contact-info li i {
-  /* Điều chỉnh kích thước biểu tượng */
   width: 20px;
   margin-right: 10px;
   font-size: 20px;
@@ -114,10 +111,10 @@ body {
     left: 0;
     right: 0;
     text-align: center;
-    background-color: #009688; /* Màu nền cho footer */
+    background-color: #009688; 
     padding: 20px 0;
-    background-image: url('footer-bg.png'); /* Đường dẫn đến ảnh làm background */
-    background-size: cover; /* Đảm bảo ảnh sẽ vừa với kích thước của footer */
+    background-image: url('footer-bg.png'); 
+    background-size: cover;
     background-repeat: no-repeat;
-    z-index: 1; /* Đảm bảo footer nằm phía trên background */
+    z-index: 1;
   }
